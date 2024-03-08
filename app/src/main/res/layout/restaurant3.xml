@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="15dp">
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:src="@drawable/grand_mehfill"
+    android:contentDescription="@string/app_name" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/grand_mehfil"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="5dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/dark_color"
+    />
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="@string/grand_mehfil_text"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:textSize="15sp"
+    android:layout_gravity="bottom|center_horizontal"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <RatingBar
+            android:id="@+id/rtGrandMehfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/golden"
+            />
+        <TextView
+            android:id="@+id/tvRatingGrandMehfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/dark_color"
+            android:layout_toEndOf="@id/rtGrandMehfil"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">HaritTask4</string>
+    <string name="aloette">Aloette</string>
+    <string name="canoe">Canoe</string>
+    <string name="grand_mehfil">The Grand Mehfil</string>
+    <string name="lena">Lena</string>
+    <string name="scaramouche">Scaramouche</string>
+
+    <string name="aloette_text">Aloette Go introduces a refined approach to fast casual dining by blending our fine dining heritage with a passion for cheeseburgers, fried chicken sandwiches, and freshly made salads in a convenient take-out and delivery-minded format.</string>
+    <string name="canoe_text">Canoe has two exclusive private dining rooms. These private upscale rooms are perfect for breakfast meetings, product launches, exclusive dinners, intimate celebrations and weddings.</string>
+    <string name="grand_mehfil_text">Founded in an effort to capture the regal heritage, rich food tastes and unique recipes that emerged from the Royal Rasois, The Grand Mehfil takes inspiration from the princely states of India. We are the regal destination of a new generation; where royal food, vintage charm, and classy ambiance seamlessly intersect.</string>
+    <string name="lena_text">Leña is an ode to matriarchal ideals at the table, to that style of cooking that percolates in all of us cooks.</string>
+    <string name="scaramouche_text">Scaramouche offers contemporary cuisine in midtown with panoramic skyline views. A long standing Toronto favourite that has been offering excellent dining experiences based on trust, courtesy and consistency. We are open from Tuesday-Saturday evenings. Beginning March 25th we will be open Monday-Saturday evenings.</string>
+    <string name="restaurants">Top Restaurants</string>
+    <string name="please_rate_us">Please rate us</string>
 </resources>
